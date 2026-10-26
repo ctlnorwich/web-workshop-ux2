@@ -77,3 +77,31 @@ header {
     }
 
 }
+
+section {
+  transition-delay: 1s;
+  transition: all 1s ease-in-out;
+}
+
+.fade-up {
+  transform: translate(0, 20vh);
+  opacity: 0;
+  background: lightblue;
+}
+
+.fade-left {
+  transform: translate(-20vh, 0);
+  opacity: 0;
+  background: lightcoral;
+}
+
+.fade-right {
+  transform: translate(20vh, 0);
+  opacity: 0;
+  background: lightgreen;
+}
+
+.in-view {
+  transform: translate(0, 0);
+  opacity: 1;
+}
